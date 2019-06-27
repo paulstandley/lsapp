@@ -6,5 +6,6 @@
 
 ```bash
 $ composer create-project laravel/larevel lsapp
+
 $ php artisan make:controller PagesController
 ```
