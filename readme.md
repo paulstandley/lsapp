@@ -8,4 +8,10 @@
 $ composer create-project laravel/larevel lsapp
 
 $ php artisan make:controller PagesController
+
+$ npm install
+
+$ npm run dev
+
+$ npm run watch
 ```

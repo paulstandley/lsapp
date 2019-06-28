@@ -7,6 +7,9 @@
     <title>{{config('app.name', 'LSAPP')}}</title>
     </head>
     <body>
-      @yield('content')
+        @include('includes.navbar')
+      <main class="container">
+        @yield('content')
+      </main>  
     </body>
 </html>
