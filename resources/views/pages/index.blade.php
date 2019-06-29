@@ -1,23 +1,13 @@
 @extends('layouts/app')
 @section('content')
-  <header class="jumbotron text-center">
-  <h1>{{$title}}</h1>
-  <div class="container">
-
-      <form class="form-signin AVAST_PAM_loginform">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
-
-    </div>
-  </header>
+  <div class="jumbotron text-center">
+    <header class="index_page_header">
+    <h1>{{$title}}</h1>
+    <p>This app is using Laravel</p>
+    <p>
+      <a class="btn btn-primary btn-lg" href="/login" role="button">Login</a>
+      <a class="btn btn-success btn-lg" href="/register" role="button">Register</a>
+    </p>
+    </header>
+  </div>
 @endsection
