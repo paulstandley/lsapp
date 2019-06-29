@@ -14,4 +14,8 @@ $ npm install
 $ npm run dev
 
 $ npm run watch
+
+$ php artisan make:controller PostsController
+
+$ php artisan make:model Post -m
 ```
