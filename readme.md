@@ -21,5 +21,11 @@ $ php artisan make:model Post -m
 
 $ php artisan migrate
 
-$ npm install php-mysql
+$ php artisan tinker
+>>> App\Post::count()
+>>> $post = new App\Post()
+>>> $post->title = 'This is Post 1';
+>>> $post->body = 'This is post 1 body';
+>>> $post->save();
+>>> quit
 ```
