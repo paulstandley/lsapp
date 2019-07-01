@@ -28,3 +28,5 @@ Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 // call pages controller with the services method
 Route::get('/services', 'PagesController@services');
+// makes all request to PostController
+Route::resource('posts', 'PostController');

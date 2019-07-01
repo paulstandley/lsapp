@@ -4,6 +4,8 @@
 
 ---
 
+## Bash
+
 ```bash
 $ composer create-project laravel/larevel lsapp
 
@@ -15,7 +17,7 @@ $ npm run dev
 
 $ npm run watch
 
-$ php artisan make:controller PostsController
+$ php artisan make:controller PostsController Deleted
 
 $ php artisan make:model Post -m
 
@@ -28,4 +30,8 @@ $ php artisan tinker
 >>> $post->body = 'This is post 1 body';
 >>> $post->save();
 >>> quit
+
+$ php artisan make:controller PostController --resource
+
+$ php artisan route:list
 ```
