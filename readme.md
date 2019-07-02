@@ -36,4 +36,6 @@ $ php artisan make:controller PostController --resource
 $ php artisan route:list
 
 $ composer require "laravelcollective/html":"^5.4.0"
+
+$ composer require laravelcollective/html
 ```
