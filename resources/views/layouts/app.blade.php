@@ -8,8 +8,8 @@
     </head>
     <body>
         @include('includes.navbar')
-      <main class="container">
+      <div class="container">
         @yield('content')
-      </main>  
+      </div>  
     </body>
 </html>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
+use DB;
 
 class PostController extends Controller
 {
@@ -14,7 +15,12 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts = Post::all();
+        // $posts = Post::all();
+        // $posts = Post::where('id', '1')->get();
+        // $posts = Db::select('SELECT * FROM posts');
+        // $posts = Post::orderBy('title', 'desc')->take(1)->get();
+        // $posts = Post::orderBy('title', 'desc')->get();
+        $posts = Post::orderBy('title', 'desc')->paginate(10);
         return view('posts.index')->with('posts', $posts);
     }
 
@@ -25,7 +31,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        return view('posts.create');
     }
 
     /**
