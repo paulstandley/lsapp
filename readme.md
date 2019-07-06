@@ -1,4 +1,4 @@
-# **PAUL STANDLEY**
+# <span style="color:blue">**PAUL STANDLEY**</span>
 
 ![Profile Pick](http://res.cloudinary.com/pieol2/image/upload/v1516543296/profile-small.png)
 
@@ -60,4 +60,9 @@ $ composer require unisharp/laravel-ckeditor
 $ php artisan vendor:publish --tag=ckeditor
 
 $ php artisan make:auth
+
+$ php artisan make:migration add_user_id_to_posts
+
+$ php artisan migrate roleback IF NEEDED
 ```
+<p>Markdown with <span style="color:green">some <em>green</em> text</span>.</p>
