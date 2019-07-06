@@ -58,4 +58,6 @@ $ composer require laravelcollective/html
 $ composer require unisharp/laravel-ckeditor
 
 $ php artisan vendor:publish --tag=ckeditor
+
+$ php artisan make:auth
 ```
