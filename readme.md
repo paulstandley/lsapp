@@ -38,4 +38,8 @@ $ php artisan route:list
 $ composer require "laravelcollective/html":"^5.4.0"
 
 $ composer require laravelcollective/html
+
+$ composer require unisharp/laravel-ckeditor
+
+$ php artisan vendor:publish --tag=ckeditor
 ```
