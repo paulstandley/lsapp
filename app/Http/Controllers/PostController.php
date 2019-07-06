@@ -44,7 +44,7 @@ class PostController extends Controller
     {
         $this->validate($request, [
             'title' => 'required',
-            'boby' => 'required'
+            'body' => 'required'
         ]);
 
         return 123;
