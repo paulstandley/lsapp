@@ -4,6 +4,22 @@
 
 ---
 
+## Providers
+
+```PHP
+  Collective\Html\HtmlServiceProvider::class,
+  Unisharp\Ckeditor\ServiceProvider::class,
+```
+
+## Aliases
+
+```PHP
+  'Form' => Collective\Html\FormFacade::class,
+  'Html' => Collective\Html\HtmlFacade::class,
+```
+
+---
+
 ## Bash
 
 ```bash
