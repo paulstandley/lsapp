@@ -65,4 +65,3 @@ $ php artisan make:migration add_user_id_to_posts
 
 $ php artisan migrate roleback IF NEEDED
 ```
-<p>Markdown with <span style="color:green">some <em>green</em> text</span>.</p>
